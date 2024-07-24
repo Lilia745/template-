@@ -50,3 +50,26 @@ button{
     justify-content: center;
     align-items: center;
 }
+.text{
+    width: 50%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.276);
+    padding: 20px;
+    margin-top: 30px;
+}
+.text>h1{
+    text-align: center;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    &:hover{
+        color: rgba(0, 0, 0, 0.394);
+    }
+}
+.text>p{
+    font-size: 18px;
+    line-height: 25px;
+    transition: 0.5s;
+    &:hover{
+        color: rgba(0, 0, 0, 0.577);
+    }
+}
