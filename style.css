@@ -46,4 +46,7 @@ button{
     background-image: url(https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg);
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
